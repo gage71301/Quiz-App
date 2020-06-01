@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Duck Quiz
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./styles.css" /> 
+    </head>
+    <body>
+        <section id="mainApp">
+            <header id="headerLabel">
+                <h1>
+                    Duck Quiz 
+                </h1>
+            </header>
+            <article>
+                <p></p>
+            </article>
+            <div class="startQuizButton">
+                <button id="quizBegin">Start Quiz!</button>
+            </div>
+            <article class="quizContainer"> 
+                <div id="quizScore">
+                    <p>Question <span id="questionIndex"></span> of <span class="questionTotal"></span></p>
+
+                    <p>Correct <span class="rightAnsIndex"></span> of <span class="questionTotal"></span></p>
+                </div>
+
+                <div id="questionContainer">
+                    
+                </div>
+
+                <div class="correctAnswerFB">
+
+                </div>
+
+            </article>
+
+            <section class="questionResult">
+
+            </section>
+
+        </section>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+        <script src="./scripts.js"></script>
+
+
+        
+    </body>
+
+
+</html>
